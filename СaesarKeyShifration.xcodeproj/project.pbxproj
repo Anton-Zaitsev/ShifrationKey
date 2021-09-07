@@ -25,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3AE772EF26E7F9C600F8B98E /* warAndPeaceTextFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warAndPeaceTextFile.png; sourceTree = "<group>"; };
+		3AE772F026E7F9E300F8B98E /* shifrMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shifrMessage.png; sourceTree = "<group>"; };
+		3AE772F126E7F9FA00F8B98E /* AnalizationText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnalizationText.png; sourceTree = "<group>"; };
 		3AE89B4426E7F0B300A4C1BA /* СaesarKeyShifration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "СaesarKeyShifration"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE89B4726E7F0B300A4C1BA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3AE89B4E26E7F26000A4C1BA /* PopularCharacted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCharacted.swift; sourceTree = "<group>"; };
@@ -43,9 +46,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE772EE26E7F9A200F8B98E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3AE772F126E7F9FA00F8B98E /* AnalizationText.png */,
+				3AE772EF26E7F9C600F8B98E /* warAndPeaceTextFile.png */,
+				3AE772F026E7F9E300F8B98E /* shifrMessage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		3AE89B3B26E7F0B300A4C1BA = {
 			isa = PBXGroup;
 			children = (
+				3AE772EE26E7F9A200F8B98E /* Images */,
 				3AE89B4626E7F0B300A4C1BA /* СaesarKeyShifration */,
 				3AE89B4526E7F0B300A4C1BA /* Products */,
 			);
